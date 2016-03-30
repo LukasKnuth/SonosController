@@ -1,0 +1,3 @@
+# Installs all required packages for the server-application
+Flask
+soco
