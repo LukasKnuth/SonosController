@@ -8,6 +8,14 @@ The server does all the actual interaction with the SONOS speakers. It is writte
 
 The second Part is the Android application, which runs a service on the device that listens to a bunch of events (e.g. phone calls) and notifies the Server on the configured URL about what's happening.
 
+## Install
+
+Before you run the server, make sure you have all required packages installed. If `pip` is installed, it's as easy as:
+
+	pip install -r requirements.txt
+
+Afterwards, the server will listen on `0.0.0.0:5000`.
+
 ## License
 
     Copyright 2016 Lukas Knuth
