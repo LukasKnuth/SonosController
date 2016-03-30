@@ -14,10 +14,16 @@ android {
     buildTypes {
         debug {
             debuggable true
-            buildConfigField "String", "BASE_URL", "\"http://192.168.2.102:5000\""
         }
         release {
             debuggable false
+        }
+    }
+    productFlavors {
+        localTesting {
+            buildConfigField "String", "BASE_URL", "\"http://192.168.2.102:5000\""
+        }
+        cerberus {
             buildConfigField "String", "BASE_URL", "\"http://cerberus:1337\""
         }
     }
