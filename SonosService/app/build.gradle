@@ -18,7 +18,7 @@ android {
         }
         release {
             debuggable false
-            buildConfigField "String", "BASE_URL", "\"http://cerberus:5000\""
+            buildConfigField "String", "BASE_URL", "\"http://cerberus:1337\""
         }
     }
 }

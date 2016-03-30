@@ -28,4 +28,4 @@ def get_sonos_masters():
 
 if __name__ == "__main__":
 	# Only run if this is being started from the commandline.
-	app.run(host= '0.0.0.0')
+	app.run(host='0.0.0.0', port=1337)
