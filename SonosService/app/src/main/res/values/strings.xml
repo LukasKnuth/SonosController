@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SonosService</string>
+    <string name="btn_service_stop">Stop Service</string>
+    <string name="btn_service_start">Start Service</string>
+    <string name="error_starting_service">Couldn\'t start the Service!</string>
+    <string name="error_stopping_service">No running Service found...</string>
+</resources>
