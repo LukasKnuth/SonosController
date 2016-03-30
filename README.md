@@ -10,7 +10,7 @@ The second Part is the Android application, which runs a service on the device t
 
 ## License
 
-    Copyright 2012 Lukas Knuth
+    Copyright 2016 Lukas Knuth
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
